@@ -1,0 +1,1 @@
+A high-performance 18-entity bug bounty triage and orchestration engine optimized for mobile/resource-constrained environments.

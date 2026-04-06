@@ -1,0 +1,75 @@
+"""
+Kessel Bounty Command — FastAPI application entrypoint.
+"""
+from contextlib import asynccontextmanager
+from fastapi import FastAPI, Request
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
+from app.core.config import get_settings
+from app.core.logging import get_logger, setup_logging
+
+settings = get_settings()
+setup_logging(settings.LOG_LEVEL)
+log = get_logger(__name__)
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    log.info("startup", app=settings.APP_NAME, env=settings.ENVIRONMENT)
+    yield
+    from app.core.database import close_db
+    await close_db()
+    log.info("shutdown")
+
+app = FastAPI(
+    title=settings.APP_NAME,
+    version=settings.APP_VERSION,
+    description="Production-grade bug bounty management platform.",
+    docs_url="/api/docs",
+    redoc_url="/api/redoc",
+    openapi_url="/api/openapi.json",
+    lifespan=lifespan,
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=settings.BACKEND_CORS_ORIGINS,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+@app.middleware("http")
+async def request_id_middleware(request: Request, call_next):
+    import uuid, structlog
+    request_id = request.headers.get("X-Request-ID", str(uuid.uuid4()))
+    structlog.contextvars.clear_contextvars()
+    structlog.contextvars.bind_contextvars(request_id=request_id)
+    response = await call_next(request)
+    response.headers["X-Request-ID"] = request_id
+    return response
+
+@app.exception_handler(Exception)
+async def unhandled_exception(request: Request, exc: Exception):
+    log.error("unhandled_exception", path=str(request.url), error=str(exc), exc_info=True)
+    return JSONResponse(
+        status_code=500,
+        content={"detail": "Internal server error", "type": type(exc).__name__},
+    )
+
+from app.api.v1.endpoints import auth, reports, programs, analytics, attachments, health
+
+app.include_router(health.router, prefix="/api/v1")
+app.include_router(auth.router, prefix="/api/v1")
+app.include_router(reports.router, prefix="/api/v1")
+app.include_router(programs.router, prefix="/api/v1")
+app.include_router(analytics.router, prefix="/api/v1")
+app.include_router(attachments.router, prefix="/api/v1")
+
+@app.get("/", include_in_schema=False)
+async def root():
+    return {
+        "name": settings.APP_NAME,
+        "version": settings.APP_VERSION,
+        "docs": "/api/docs",
+        "health": "/api/v1/health/ready",
+    }

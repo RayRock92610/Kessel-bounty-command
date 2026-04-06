@@ -1,0 +1,5 @@
+#!/data/data/com.termux/files/usr/bin/bash
+cd ~/kessel-bounty-command/backend
+source venv/bin/activate
+export PYTHONPATH="$PWD"
+python sugar_kernel.py

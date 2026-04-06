@@ -1,0 +1,1 @@
+{"timestamp": "2026-04-05T19:44:18.030596", "service": "sugar-kernel", "level": "INFO", "action": "health-check", "status": "healthy", "details": {"status": "healthy", "services": {"api": {"status": "healthy"}, "disk": {"free_gb": 25.5}}}}

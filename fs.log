@@ -1,0 +1,2 @@
+/data/data/com.termux/files/usr/lib/python3.13/site-packages/requests/__init__.py:109: RequestsDependencyWarning: urllib3 (1.26.20) or chardet (7.4.0.post1)/charset_normalizer (2.1.1) doesn't match a supported version!
+  warnings.warn(

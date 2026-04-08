@@ -1,7 +1,0 @@
-# Kessel Flow Sidecar - Invisible to Jules
-kesselflow/
-*.db
-*.log
-export/
-*.py
-!tests/harness/*.py

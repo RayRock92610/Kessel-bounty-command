@@ -1,0 +1,7 @@
+#!/bin/bash
+# Kessel Flow: Blood Moon Pruning Logic
+while true; do
+    sqlite3 blood_moon.db "DELETE FROM state_logs WHERE timestamp <= datetime('now', '-30 minutes');"
+    sqlite3 blood_moon.db "VACUUM;"
+    sleep 600
+done

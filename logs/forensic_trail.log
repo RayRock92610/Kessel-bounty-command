@@ -1,0 +1,249 @@
+  PID TTY      STAT   TIME COMMAND
+ 2429 pts/0    Ss     0:01 /data/data/com.termux/files/usr/bin/bash /data/data/com.termux/files/usr/bin/bash -l
+ 2500 pts/0    S      0:00 /data/data/com.termux/files/usr/bin/bash /data/data/com.termux/files/usr/bin/bash -l
+ 2505 pts/0    S      0:01 bash /data/data/com.termux/files/usr/bin/bash /data/data/com.termux/files/home/kf-sentinel.sh
+ 2513 ?        S      0:02 /data/data/com.termux/files/usr/bin/runsvdir /data/data/com.termux/files/usr/bin/runsvdir /data/data/com.termux/files/usr/var/service
+ 2519 ?        S      0:00 runsv /data/data/com.termux/files/usr/bin/runsv tx11-xfce4
+ 2520 ?        S      0:00 runsv /data/data/com.termux/files/usr/bin/runsv tx11
+ 2521 ?        S      0:00 runsv /data/data/com.termux/files/usr/bin/runsv sshd
+ 2522 ?        S      0:00 runsv /data/data/com.termux/files/usr/bin/runsv ssh-agent
+ 2523 ?        S      0:00 runsv /data/data/com.termux/files/usr/bin/runsv crond
+ 2525 ?        S      0:00 runsv /data/data/com.termux/files/usr/bin/runsv dockerd
+ 2527 ?        S      0:00 runsv /data/data/com.termux/files/usr/bin/runsv cupsd
+ 2528 ?        S      0:00 runsv /data/data/com.termux/files/usr/bin/runsv postgres
+ 2529 ?        S      0:00 runsv /data/data/com.termux/files/usr/bin/runsv tor
+ 2532 ?        S      0:00 svlogd /data/data/com.termux/files/usr/bin/svlogd -tt /data/data/com.termux/files/usr/var/log/sv/sshd
+ 2536 ?        S      0:00 svlogd /data/data/com.termux/files/usr/bin/svlogd -tt /data/data/com.termux/files/usr/var/log/sv/crond
+ 2537 ?        S      0:00 svlogd /data/data/com.termux/files/usr/bin/svlogd -tt /data/data/com.termux/files/usr/var/log/sv/tx11
+ 2539 ?        S      0:00 sshd /data/data/com.termux/files/usr/bin/sshd -D -e
+ 2541 ?        S      0:00 svlogd /data/data/com.termux/files/usr/bin/svlogd -tt /data/data/com.termux/files/usr/var/log/sv/tx11-xfce4
+ 2542 ?        S      0:00 svlogd /data/data/com.termux/files/usr/bin/svlogd -tt /data/data/com.termux/files/usr/var/log/sv/ssh-agent
+ 2543 ?        S      0:02 crond /data/data/com.termux/files/usr/bin/crond -n -s
+ 2547 ?        S      0:00 svlogd /data/data/com.termux/files/usr/bin/svlogd -tt /data/data/com.termux/files/usr/var/log/sv/postgres
+ 2548 ?        S      0:00 svlogd /data/data/com.termux/files/usr/bin/svlogd -tt /data/data/com.termux/files/usr/var/log/sv/cupsd
+ 2551 ?        S      0:00 svlogd /data/data/com.termux/files/usr/bin/svlogd -tt /data/data/com.termux/files/usr/var/log/sv/tor
+ 2564 ?        S      0:00 svlogd /data/data/com.termux/files/usr/bin/svlogd -tt /data/data/com.termux/files/usr/var/log/sv/dockerd
+ 3379 pts/1    Ss     0:00 /data/data/com.termux/files/usr/bin/bash /data/data/com.termux/files/usr/bin/bash -l
+ 3399 ?        S      2:00 /data/data/com.termux/files/usr/bin/runsvdir /data/data/com.termux/files/usr/bin/runsvdir /data/data/com.termux/files/usr/var/service
+ 5995 pts/2    S      2:19 /data/data/com.termux/files/usr/bin/bash /data/data/com.termux/files/usr/bin/bash /data/data/com.termux/files/home/kesselflow-witchhunter/bin/jules-core.sh
+ 7120 pts/2    S+     2:18 /data/data/com.termux/files/usr/bin/bash /data/data/com.termux/files/usr/bin/bash /data/data/com.termux/files/home/kesselflow-witchhunter/bin/jules-core.sh
+ 8554 pts/1    S+     0:00 ul /data/data/com.termux/files/usr/bin/ul
+ 9243 ?        S      1:46 /data/data/com.termux/files/usr/bin/runsvdir /data/data/com.termux/files/usr/bin/runsvdir /data/data/com.termux/files/usr/var/service
+ 9508 pts/2    Ss     0:00 /data/data/com.termux/files/usr/bin/bash /data/data/com.termux/files/usr/bin/bash -l
+ 9531 ?        S      1:59 /data/data/com.termux/files/usr/bin/runsvdir /data/data/com.termux/files/usr/bin/runsvdir /data/data/com.termux/files/usr/var/service
+10888 pts/4    Ss+    0:00 /data/data/com.termux/files/usr/bin/bash /data/data/com.termux/files/usr/bin/bash -l
+10908 ?        S      1:18 /data/data/com.termux/files/usr/bin/runsvdir /data/data/com.termux/files/usr/bin/runsvdir /data/data/com.termux/files/usr/var/service
+12337 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+12338 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+12427 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+12429 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+12455 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+12456 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+12484 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+12486 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+12513 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+12514 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+12593 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+12594 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+12625 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+12626 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+12653 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+12654 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+12715 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+12716 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+12772 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+12773 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+12875 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+12879 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+12919 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+12920 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+12952 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+12953 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+12975 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+12980 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+13011 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+13012 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+13607 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -f -d 500
+13608 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ez force true --ei duration_ms 500
+13634 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -f -d 500
+13635 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ez force true --ei duration_ms 500
+13644 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -f -d 500
+13645 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ez force true --ei duration_ms 500
+13650 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -f -d 500
+13651 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ez force true --ei duration_ms 500
+13655 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -f -d 500
+13656 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ez force true --ei duration_ms 500
+13677 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -f -d 500
+13678 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ez force true --ei duration_ms 500
+13703 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -f -d 500
+13704 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ez force true --ei duration_ms 500
+13728 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -f -d 500
+13731 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ez force true --ei duration_ms 500
+13744 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -f -d 500
+13745 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ez force true --ei duration_ms 500
+17339 pts/2    S      0:01 /bin/bash /data/data/com.termux/files/usr/bin/bash /data/data/com.termux/files/home/kessel_flow/kessel_sentry.sh
+18452 ?        Ssl    0:00 adb /data/data/com.termux/files/usr/bin/adb -L tcp:5037 fork-server server --reply-fd 4
+21952 pts/3    Ss+    0:01 /data/data/com.termux/files/usr/bin/bash /data/data/com.termux/files/usr/bin/bash -l
+21983 ?        S      1:21 /data/data/com.termux/files/usr/bin/runsvdir /data/data/com.termux/files/usr/bin/runsvdir /data/data/com.termux/files/usr/var/service
+22005 pts/2    S      0:00 sleep /data/data/com.termux/files/usr/bin/sleep 300
+22609 pts/0    S      0:00 sleep /data/data/com.termux/files/usr/bin/sleep 300
+22849 pts/2    S      0:00 /data/data/com.termux/files/usr/bin/bash /data/data/com.termux/files/usr/bin/bash /data/data/com.termux/files/usr/bin/termux-notification -c Jules: Boneyard Disconnected. Recovery needed.
+22856 pts/2    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Notification
+22989 pts/0    S+     0:00 tail /data/data/com.termux/files/usr/bin/tail -f jules_activity.log
+23546 ?        S      2:09 /data/data/com.termux/files/usr/bin/runsvdir /data/data/com.termux/files/usr/bin/runsvdir /data/data/com.termux/files/usr/var/service
+23764 ?        S      0:00 /data/data/com.termux/files/usr/bin/bash /data/data/com.termux/files/usr/bin/bash /data/data/com.termux/files/usr/bin/termux-notification -c Jules: Boneyard Disconnected. Recovery needed.
+23768 ?        S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Notification
+28904 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+28905 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+28908 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -f -d 500
+28909 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ez force true --ei duration_ms 500
+28915 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+28916 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -f -d 500
+28917 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+28918 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ez force true --ei duration_ms 500
+28924 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -f -d 500
+28925 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ez force true --ei duration_ms 500
+28928 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+28929 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+28932 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -f -d 500
+28933 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ez force true --ei duration_ms 500
+28936 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -f -d 500
+28937 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+28938 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ez force true --ei duration_ms 500
+28939 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+28942 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -f -d 500
+28945 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ez force true --ei duration_ms 500
+28954 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+28961 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+29010 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -f -d 500
+29011 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ez force true --ei duration_ms 500
+29033 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+29035 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -f -d 500
+29037 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+29044 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ez force true --ei duration_ms 500
+29078 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -f -d 500
+29079 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ez force true --ei duration_ms 500
+29089 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+29096 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+29135 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+29137 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+29171 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+29172 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+29189 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+29190 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+29208 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+29209 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+29223 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+29224 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+29238 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+29239 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+29285 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+29286 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+29301 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+29305 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+31181 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+31185 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+31190 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -f -d 500
+31192 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ez force true --ei duration_ms 500
+31197 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -f -d 500
+31198 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+31200 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+31202 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ez force true --ei duration_ms 500
+31212 ?        Z      0:00 [linker64] <defunct>
+31213 ?        Z      0:00 [linker64] <defunct>
+31214 ?        Z      0:00 [linker64] <defunct>
+31218 ?        Z      0:00 [linker64] <defunct>
+31219 ?        Z      0:00 [linker64] <defunct>
+31220 ?        Z      0:00 [linker64] <defunct>
+31221 ?        Z      0:00 [linker64] <defunct>
+31222 ?        Z      0:00 [linker64] <defunct>
+31230 pts/3    S      0:00 python3 /data/data/com.termux/files/usr/bin/python3 /data/data/com.termux/files/home/kesselflow/bin/kf_utility.py Snail
+31231 ?        Z      0:00 [linker64] <defunct>
+31234 ?        Z      0:00 [linker64] <defunct>
+31236 ?        Z      0:00 [linker64] <defunct>
+31237 ?        Z      0:00 [linker64] <defunct>
+31239 ?        Z      0:00 [linker64] <defunct>
+31240 ?        Z      0:00 [linker64] <defunct>
+31241 ?        Z      0:00 [linker64] <defunct>
+31242 ?        Z      0:00 [linker64] <defunct>
+31243 ?        Z      0:00 [linker64] <defunct>
+31244 ?        Z      0:00 [linker64] <defunct>
+31245 ?        Z      0:00 [linker64] <defunct>
+31254 ?        Z      0:00 [linker64] <defunct>
+31255 ?        Z      0:00 [linker64] <defunct>
+31256 ?        Z      0:00 [linker64] <defunct>
+31257 ?        Z      0:00 [linker64] <defunct>
+31259 ?        Z      0:00 [linker64] <defunct>
+31260 ?        Z      0:00 [linker64] <defunct>
+31265 ?        Z      0:00 [linker64] <defunct>
+31266 ?        Z      0:00 [linker64] <defunct>
+31273 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -f -d 500
+31275 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ez force true --ei duration_ms 500
+31283 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+31284 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+31287 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -f -d 500
+31288 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ez force true --ei duration_ms 500
+31292 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+31295 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -f -d 500
+31296 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+31297 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ez force true --ei duration_ms 500
+31304 ?        Z      0:00 [linker64] <defunct>
+31308 ?        Z      0:00 [linker64] <defunct>
+31309 ?        Z      0:00 [linker64] <defunct>
+31310 ?        Z      0:00 [linker64] <defunct>
+31311 ?        Z      0:00 [linker64] <defunct>
+31312 ?        Z      0:00 [linker64] <defunct>
+31318 ?        Z      0:00 [linker64] <defunct>
+31324 ?        Z      0:00 [linker64] <defunct>
+31325 ?        Z      0:00 [linker64] <defunct>
+31326 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -f -d 500
+31345 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ez force true --ei duration_ms 500
+31362 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+31374 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+31437 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -f -d 500
+31438 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ez force true --ei duration_ms 500
+31487 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+31488 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -f -d 500
+31506 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+31511 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ez force true --ei duration_ms 500
+31552 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -f -d 500
+31553 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ez force true --ei duration_ms 500
+31565 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+31566 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+31656 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+31657 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+31693 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+31694 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+31732 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+31733 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+31769 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+31771 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+31806 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+31807 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+31817 ?        Z      0:00 [linker64] <defunct>
+31818 ?        Z      0:00 [linker64] <defunct>
+31819 ?        Z      0:00 [linker64] <defunct>
+31820 ?        Z      0:00 [linker64] <defunct>
+31821 ?        Z      0:00 [linker64] <defunct>
+31822 ?        Z      0:00 [linker64] <defunct>
+31823 ?        Z      0:00 [linker64] <defunct>
+31824 ?        Z      0:00 [linker64] <defunct>
+31825 ?        Z      0:00 [linker64] <defunct>
+31826 ?        Z      0:00 [linker64] <defunct>
+31827 ?        Z      0:00 [linker64] <defunct>
+31828 ?        Z      0:00 [linker64] <defunct>
+31829 ?        Z      0:00 [linker64] <defunct>
+31830 ?        Z      0:00 [linker64] <defunct>
+31831 ?        Z      0:00 [linker64] <defunct>
+31832 ?        Z      0:00 [linker64] <defunct>
+31833 ?        Z      0:00 [linker64] <defunct>
+31834 ?        Z      0:00 [linker64] <defunct>
+31842 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+31844 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+31861 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+31862 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+31877 pts/3    S      0:00 /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/sh /data/data/com.termux/files/usr/bin/termux-vibrate -d 100
+31878 pts/3    S      0:00 /data/data/com.termux/files/usr/libexec/termux-api /data/data/com.termux/files/usr/libexec/termux-api Vibrate --ei duration_ms 100
+31893 pts/2    S      0:00 sleep /data/data/com.termux/files/usr/bin/sleep 1
+31902 pts/2    S+     0:00 sleep /data/data/com.termux/files/usr/bin/sleep 1
+31910 pts/3    R      0:00 ps /data/data/com.termux/files/usr/bin/ps ax
